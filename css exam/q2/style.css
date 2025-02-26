@@ -1,0 +1,51 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar
+{
+    width: 100%;
+    background-color: whitesmoke;
+}
+.navbarcontainer
+{
+    width: 80%;
+    height: 60px;
+    background-color: aqua;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.manu .main
+{
+    display: flex;
+    position: relative;
+}
+.main .mainlist
+{
+    list-style: none;
+    padding-left: 20px;
+}
+.mainlist a{
+    text-decoration: none;
+}
+.sub
+{
+    position: absolute;
+    top: 40px;
+    left:5;
+    display: none;
+    background-color: cyan;
+}
+.sub .sublist
+{
+    list-style: none;
+    padding: 20px 20px;
+}
+.mainlist:hover .sub
+{
+ display: block;
+}
